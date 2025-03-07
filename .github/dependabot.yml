@@ -47,3 +47,33 @@ updates:
     versioning-strategy: increase
     schedule:
       interval: "monthly"
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /projects/lib
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /projects/messaging-provider
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /projects/test-harness
+    schedule:
+      interval: daily
+
+  - package-ecosystem: npm
+    directory: /projects/ui-provider
+    schedule:
+      interval: daily
